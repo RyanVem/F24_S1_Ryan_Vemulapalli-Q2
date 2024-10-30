@@ -13,6 +13,7 @@ public class StringFunctions {
     private static final char SPACE = ' ';
 
     public static final String reverseWithStringConcat(String string) {
+        // Return empty string if input is null or empty
         if (string == null || string.isEmpty()) {
             return "";
         }
@@ -24,6 +25,7 @@ public class StringFunctions {
     }
     
     public static final String reverseWithStringBuilder(String string) {
+        // Return empty string if input is null or empty
         if (string == null || string.isEmpty()) {
             return "";
         }
